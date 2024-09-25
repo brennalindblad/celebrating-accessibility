@@ -1,0 +1,103 @@
+<doctype html>
+  <html lang="en">
+    <head <meta charset="utf-8">
+      <title>Accessibility Course Overview</title>
+      <link rel="stylesheet" href="homework3.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="homework3.js"></script>
+    </head>
+    <body>
+      <div class="container">
+        <nav aria-label="Primary">
+          <h3>Home</h3>
+          <h3>Links</h3>
+          <h3>Sign Up</h3>
+        </nav>
+
+        <h1>Accessibility Overview</h1>
+        <div>
+          <h2>Video Introduction</h2>
+          <video width="480" height="360" id="employment-movie" alt="Video">
+            <source
+              src="/Users/brennalindblad/celebrating-accessibility/accessibility-audit/Accessibility_Evaluation_ Employment_Video.mp4"
+              type="video/mp4"
+            />
+            <track
+              label="English"
+              kind="subtitles"
+              srclang="en"
+              src="accessibility-audit/[English] Accessibility Evaluation_ Employment Video [DownSub.com].srt"
+              default
+            />
+          </video>
+          <p>
+            The video shows two histograms titled Employment for Disabled and
+            Non-Disabled Americans. For 1991 it shows two bars being compared -
+            one blue, and one grey. The blue one is labeled disabled and reaches
+            50.2%. The grey one is labeled non-disabled and reaches 94.4 %. For
+            2010 it shows the blue bar for disabled Americans at 41.1% and the
+            grey bar for non-disabled Americans at 79.1%.
+          </p>
+        </div>
+
+        <div class="links">
+          <h2>Links</h2>
+          <ul>
+            <li>
+              <a href="http://accessibility.cs.cmu.edu"
+                >Accessibility Research at CMU</a
+              >
+            </li>
+            <li>
+              <a href="https://www.cmu.edu/hr/eos/disability/"
+                >Disability Services at CMU</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.google.com/search?q=hamster&rlz=1C5CHFA_enUS971US980&oq=hamster&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQLhiDARixAxiABDINCAIQLhjUAhixAxiABDIKCAMQLhixAxiABDINCAQQLhiDARixAxiABDIKCAUQABixAxiABDIGCAYQABgDMgYIBxBFGD3SAQg1MDI3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"
+                >Hamster Dance</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="sign-up">
+          <h2>Sign Up Form</h2>
+          <form id="sign-up-form">
+            <p>
+              <label for="first-name">First Name:</label>
+              <input name="first-name" type="text" size="10" id="first-name" />
+              <label for="middle-name">Middle Name:</label>
+              <input
+                name="middle-name"
+                type="text"
+                size="1"
+                id="middle-name"
+              />.
+              <label for="last-name">Last Name:</label>
+              <input name="last-name" type="text" size="10" id="last-name" />
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input id="email" name="email" type="text" size="20" />
+            </p>
+            <p>
+              <label for="checkbox"
+                >Would you like to receive occassional emails with offers from
+                us?</label
+              >
+              <input type="checkbox" id="checkbox" name="checkbox" checked />
+            </p>
+            <p>
+              Comments:<br />
+              <label for="textarea">Text Area</label>
+              <textarea id="textarea" rows="5" cols="40"></textarea>
+            </p>
+          </form>
+        </div>
+      </div>
+      <!-- end div.container -->
+    </body>
+  </html>
+</doctype>

@@ -1,0 +1,25 @@
+1
+00:00:00,440 --> 00:00:02,600
+As you can see the employment 
+rate for Americans without
+
+2
+00:00:02,600 --> 00:00:04,840
+disabilities is much higher than those
+
+3
+00:00:04,840 --> 00:00:08,000
+with disabilities.
+
+4
+00:00:08,000 --> 00:00:09,920
+In general we have seen people with
+
+5
+00:00:09,920 --> 00:00:12,360
+disabilities employed at nearly half the rate
+
+6
+00:00:12,360 --> 00:00:20,600
+of those without disabilities.
+
